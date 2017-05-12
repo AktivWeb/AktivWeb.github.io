@@ -1,0 +1,210 @@
+@charset "utf-8";
+body {
+	margin: 0 auto;
+	padding: 0 auto;
+	background: #f1f1f1;
+}
+
+/* Header */
+header#head {
+	margin: 0;
+	padding: 0;
+	height: 100px;
+	width: 100%;
+	background: #2a363b;
+}
+header#head .title{
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	margin-top: 10px;
+	color: #e84a5f;
+	font-family: MontserratAlternatives-Light;
+	font-size: 2.4em;
+	letter-spacing: 1px;
+}
+header#head .subtitle{
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+	color: #fff;
+	font-family: MontserratAlternatives-Thin;
+}
+
+/* Sidebars */
+nav#nav {
+	width: 300px;
+	display: inline-block;
+	height: 400px;
+	background: #2a363b;
+	border-bottom-right-radius: 6px;
+}
+section#twitter {
+	width: 300px;
+	display: inline-block;
+	height: 400px;
+	background: #2a363b;
+	border-bottom-left-radius: 6px;
+	float: right;
+}
+
+/* Color-Fill */
+section#color-fill {
+	height: 100px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 80px;
+	width: calc(100% - 600px);
+	background: #2a363b;
+	margin: auto;
+}
+section#color-fill-curve {
+	height: 400px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 80px;
+	width: calc(100% - 600px);
+	background: #f1f1f1;
+	margin: auto;
+	border-radius: 12px;
+}
+
+/* Blog */
+section#blog {
+	height: 395px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 85px;
+	width: calc(100% - 630px);
+	background: #e84a5f;
+	margin: auto;
+	border-radius: 6px;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding: 10px;
+	color: #fff;
+	font-family: MontserratAlternatives-Light;
+	font-size: 0.8em;
+}
+section#blog::-webkit-scrollbar {
+	width: 12px;
+}
+
+section#blog::-webkit-scrollbar-track {
+		border-top-right-radius: 6px;
+		border-bottom-right-radius: 6px;
+		background: rgba(0, 0 ,0 , 0.4);
+}
+
+section#blog::-webkit-scrollbar-thumb {
+  background-color: #2a363b;
+  border-top-right-radius: 6px;
+	border-bottom-right-radius: 6px;
+}
+
+/* Class Buttons */
+section#classes{
+	width: 100%;
+	height: calc(100vh - 504px);
+	text-align: center;
+}
+section#classes #class1 {
+	display: inline-block;
+	height: 98%;
+	width: calc(25% - 5px);
+	position: relative;
+	box-sizing: border-box;
+	border-radius: 12px;
+	border: 2px rgba(0, 0, 0, 0.0) dashed;
+
+}
+section#classes #class1:hover {
+	border: 2px #2A363B dashed;
+}
+section#classes #class2 {
+	display: inline-block;
+	height: 98%;
+	width: calc(25% - 5px);
+	position: relative;
+	box-sizing: border-box;
+	border-radius: 12px;
+	border: 2px rgba(0, 0, 0, 0.0) dashed;
+}
+section#classes #class2:hover {
+	border: 2px #2A363B dashed;
+}
+section#classes #class3 {
+	display: inline-block;
+	height: 98%;
+	width: calc(25% - 5px);
+	position: relative;
+	box-sizing: border-box;
+	border-radius: 12px;
+	border: 2px rgba(0, 0, 0, 0.0) dashed;
+}
+section#classes #class3:hover {
+	border: 2px #2A363B dashed;
+}
+section#classes #class4 {
+	display: inline-block;
+	height: 98%;
+	width: calc(25% - 5px);
+	position: relative;
+	box-sizing: border-box;
+	border-radius: 12px;
+	border: 2px rgba(0, 0, 0, 0.0) dashed;
+}
+section#classes #class4:hover {
+	border: 2px #2A363B dashed;
+}
+section#classes img{
+	position: absolute;
+	width: 50%;
+	padding: 0;
+	margin: 0;
+	top: 10px;
+	left: 50%;
+	transform: translateX(-50%);
+}
+section#classes h1{
+	position: absolute;
+	bottom: 150px;
+	padding: 0;
+	margin: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	font-family: MontserratAlternatives-Light;
+	color: #e84a5f;
+}
+section#classes p{
+	position: absolute;
+	top: 260px;
+	padding: 0;
+	margin: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	font-family: MontserratAlternatives-thin;
+	width: 96%;
+	font-size: 14px;
+}
+
+/* Fonts */
+@font-face{
+	font-family: Overpass-Black;
+	src: url(../font/Overpass/Overpass-Black.ttf);
+}
+@font-face{
+	font-family: MontserratAlternatives-Thin;
+	src: url(../font/MontserratAlternates/MontserratAlternates-Thin.ttf);
+}
+@font-face{
+	font-family: MontserratAlternatives-Light;
+	src: url(../font/MontserratAlternates/MontserratAlternates-Light.ttf);
+}
+@font-face{
+	font-family: Montserrat-Black;
+	src: url(../font/Montserrat/Montserrat-Black.ttf);
+}
