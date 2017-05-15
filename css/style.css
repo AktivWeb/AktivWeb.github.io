@@ -108,8 +108,10 @@ section#blog::-webkit-scrollbar-thumb {
 /* Class Buttons */
 section#classes{
 	width: 100%;
-	height: calc(100vh - 504px);
+	height: calc(100vh - 505px);
 	text-align: center;
+	box-sizing: padding-box;
+	padding-top: 5px;
 }
 section#classes #class1 {
 	display: inline-block;
@@ -181,14 +183,35 @@ section#classes h1{
 }
 section#classes p{
 	position: absolute;
-	top: 260px;
+	bottom: 20px;
 	padding: 0;
 	margin: 0;
 	left: 50%;
 	transform: translateX(-50%);
-	font-family: MontserratAlternatives-thin;
+	font-family: MontserratAlternatives-light;
 	width: 96%;
 	font-size: 14px;
+	color: #2A363B;
+}
+
+/* Buttons */
+.btn-nav {
+	display: inline-block;
+	height: 40px;
+	width: 100%;
+	box-sizing: border-box;
+	border-bottom: 2px rgba(255, 255, 255, 0.0) solid;
+	color: #fff;
+	text-decoration: none;
+	font-family: MontserratAlternatives-Light;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+.btn-nav:hover {
+	background: #151b1e;
+}
+.btn-nav-active {
+	border-bottom: 2px rgba(255, 255, 255, 1.0) solid;
 }
 
 /* Fonts */
